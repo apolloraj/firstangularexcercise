@@ -1,0 +1,16 @@
+[{
+	"name": "Home",
+	"urllink": "#!/home"
+}, {
+	"name": "Menu",
+	"urllink": "#!/menu"
+}, {
+	"name": "OrderLine",
+	"urllink": "#!/orderonline"
+}, {
+	"name": "Contact",
+	"urllink": "#!/contact"
+}, {
+	"name": "About Us",
+	"urllink": "#!/about"
+}]

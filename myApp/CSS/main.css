@@ -1,0 +1,393 @@
+body {
+/* display: block; */
+
+  margin: 0px;
+}
+
+.HeaderClass{
+  width: 1520px;
+  height: 80px;
+  /* top:40px; */
+  background-image: url(../images/restaurant_1.jpg);
+  position: fixed;  
+  /* background-color: cadetblue */
+}
+
+.HeaderClass p{
+  padding: 15px 500px 15px 15px;
+}
+
+.HeaderClass p:hover {
+  color: #142e17;
+}
+
+#backgroundheader {
+  background-image: url(../images/utrechtIdlyvada_1.jpg);
+  width: 1520px;
+  height: 120px;
+  position:fixed;
+}
+
+/* .HeaderClass ul{
+  padding: 15px;
+} */
+
+.App-logo { 
+  width: 1600px;
+  height: 200px;
+}
+
+.Menu-list {
+  display: inline-flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.Menu-list li{
+  font-size: 15px;
+  font-weight: bold;
+  padding: .65rem;
+}
+
+.Menu-list a:hover{
+  color: red;
+}
+
+.Menu-list a{
+  color: #06650e;
+  font-family: 'proximaSemiBold';
+  padding-right: 20px;
+}
+
+/* #dropdownmainmenu:hover ul {
+  display: block;
+} */
+
+#dropdownsubmenulist li{
+  margin:0px;
+  display: none;
+  list-style: none;  
+}
+
+nav ul li:hover > ul {
+  display: block;  
+}
+
+nav ul li ul{
+  display: none;
+  padding: 0px;  
+}
+
+.dropdownsubmenu {
+  list-style: none;
+  background: -webkit-linear-gradient(top,#66b36ccc 0%,#66b36ccc 200%)
+}
+
+.dropdownsubmenu li{
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+
+.dropdownsubmenu li a{
+  padding: 0px;  
+}
+
+.Logoname-Style {
+  /* float: left; */
+  padding-left: 50px;
+  font-size: 25px;
+  /* margin: 20px; */
+  font-weight: bold;
+  color: #06650e;
+  /* padding-right: 400px;
+  line-height: normal; */
+}
+
+.introduction {
+  padding-top: 81px;
+}
+
+.IntroParagraph {
+  font-size:20px;
+}
+
+#MenuBorderControl {
+  background-color: #24692ecc;
+  max-width: 1520px;
+  height: 600px;
+}
+
+.IntroParagraph p{
+  text-align: left;
+  margin: 0px;
+  display: flex;
+  padding: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+/* #MenuBorderControl div p{
+  text-align: left;
+  margin: 0px;
+  display: flex;
+  padding: 4px;
+  color: white;
+  font-size: 16px;
+} */
+
+/* .App-header {
+  padding: .5em .5em 1em 1.5em;
+  display: flex;
+  background: white;
+  align-items: center;
+  box-shadow: 0 4px 15px 0 #0d4888;
+  z-index: 10;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+#container {
+  /* background-image: url(../images/utrechtidlyvada_1.jpg); */
+  /* padding-top:120px; */
+  color: green;
+}
+
+.marketing {
+  padding-top: 20px;
+}
+
+#subcontainer {
+  background-image: url(../images/utrechtidlyvada_1.jpg);
+  
+  /* padding:20px 250px 50px 250px; */
+  /* height: 700px; */
+  color: white;
+}
+
+#storyimage {
+  background-image: url(../images/dosamenu.jpg);
+  /* padding:20px 250px 50px 250px; */
+  /* height: 700px; */
+  color: white;
+}
+
+#contactimage {
+  background-image: url(../images/freedelivery.jpg);
+  /* height: 250px;
+  width: 800px; */
+}
+
+/* Orderonline css */
+#left-box {  
+  height: 700px;
+  padding:150px 250px 20px 250px;
+}
+
+.card-body img {
+  margin:10px;
+  border-radius:5px; 
+}
+
+/* .applymargin {
+  
+} */
+
+.headerBottom {
+  float: left;
+  width: 50%;
+  /* padding-top: 100px; */
+  background: #00567c;
+  position: relative;
+  min-height: 15px;
+}
+
+.imgadjust {
+  width:1520px;
+  height:350px;
+}
+
+.applygreen {
+  color:#21790f;
+  font-weight: bolder;
+}
+
+.applymargin {
+  margin: 40px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  /* width: 100%; */
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.containerimg {
+  position: relative;
+  text-align: center;
+  color: white;
+  float:left;
+}
+
+.bottom-center {
+  position: absolute;
+    bottom: 10px;
+    left: 35px;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 4px 8px;
+    color: white;
+    margin: 0;
+    font: 16px Sans-Serif;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.containerimg:hover .bottom-center {
+  opacity: 1;
+}
+
+#menuContainer {
+  padding: 10px 200px 50px 200px;
+  height: 500px;
+  background-color: #24692ecc;
+}
+
+#mycarouselinner {
+  width:100%;
+  height:350px;
+}
+
+.MenuPhotoList {
+  list-style: none !important;
+}
+
+.SingleImageMenu li a{
+  float:left;
+  padding: 15px;
+  text-decoration: none;
+  /* animation: App-header-spin infinite 30s linear;    */
+}
+
+.SingleImageMenu li a h3{
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  border: 3px groove white;
+  text-decoration: none;
+  font-size: 18px
+}    
+
+.site-footer {
+  background-image: url(../images/restaurant_1.jpg);
+  width: 1520px;
+  height: 80px;
+}
+
+#footeralign {    
+  list-style-type: none;
+}
+
+#footeralign ul{
+  display: inline-flex;
+  margin: 0px;
+  padding-left: 450px;
+}
+
+#footeralign li{
+  display: inline-flex;
+  padding: 20px;
+}
+
+#footeralign a{
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+
+.copyright-text {
+  text-align: center;
+}
+
+.threebars {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  display: none;
+  float:left;
+}
+
+/* Style the navigation menu */
+.navbarorder {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbarorder a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbarorder a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navbarorder a.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  /* .navbarorder a {
+    width: 15px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    /* float: none;
+    display: block;
+    width: 100%; */
+    /* text-align: left; */
+     /* If you want the text to be left-aligned on small screens */
+  /* } */ 
+  div.threebars {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    /* display: none; */
+  }
+}
+
+@keyframes App-header-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+  
+
+  

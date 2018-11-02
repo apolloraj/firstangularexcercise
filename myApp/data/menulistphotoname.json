@@ -1,0 +1,25 @@
+[{
+	"menuname": "soups",
+	"imgpath": "images/soups.jpg"
+}, {
+	"menuname": "Masala Vadai",
+	"imgpath": "images/MasalaVadai.jpg"
+}, {
+	"menuname": "Veg Starters",
+	"imgpath": "images/vegstarter.jpg"
+}, {
+	"menuname": "Chicken Starters",
+	"imgpath": "images/chickenstarter.jpg"
+}, {
+	"menuname": "Meedu Vada",
+	"imgpath": "images/meduvada.jpg"
+}, {
+	"menuname": "Idly",
+	"imgpath": "images/idlymenu.jpg"
+}, {
+	"menuname": "Dosas",
+	"imgpath": "images/dosas.jpg"
+}, {
+	"menuname": "Non-Veg Briyani",
+	"imgpath": "images/briyani_nonveg.jpg"
+}]
